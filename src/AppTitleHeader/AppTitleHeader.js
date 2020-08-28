@@ -1,9 +1,9 @@
 import React from 'react';
-
+import AppTitle from './AppTitle/AppTitle'
 export default function AppTitleHeader(){
     return(
         <header>
-          <h1>ELF Computing | Laptops</h1>
+          <AppTitle />
         </header>
     )
 }

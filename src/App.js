@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <div className="App">
         <AppTitleHeader/>
-        <AppSection features={this.props.features} handleFeatureUpdate={this.updateFeature} selectedFeature={this.state}/>
+        <AppSection handleFeatureUpdate={this.updateFeature} selectedFeature={this.state}/>
       </div>
     );
   }
